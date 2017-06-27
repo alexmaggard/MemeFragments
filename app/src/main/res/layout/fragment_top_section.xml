@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a660252397.memefragments.topSectionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/topEditText"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/top_text"
+        android:singleLine="true"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/bottomEditText"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/topEditText"
+        android:hint="@string/bottom_text"
+        android:singleLine="true"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/generate_meme"
+        android:layout_below="@+id/bottomEditText"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
